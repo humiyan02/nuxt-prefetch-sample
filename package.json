@@ -1,7 +1,7 @@
 {
   "name": "nuxt-prefetch-playground",
   "version": "0.0.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,9 +11,22 @@
     "lint": "yarn lint:js",
     "test": "jest"
   },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "prefetch",
+    "nuxt-link",
+    "vue-router"
+  ],
+  "author": "FumiFumi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humiyan02"
+  },
   "dependencies": {
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "nuxt-prefetch": "^1.0.3"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",

@@ -1,20 +1,8 @@
 <template>
   <div>
+    ↓スクロール
+    <div style="height: 1000px; width: 100%"></div>
     <button @click="execAsyncFunc">プリフェッチ後非同期処理の後に遷移</button>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
-    <h1>まだプリフェッチしない</h1>
     <button ref="prefetchTarget" @click="runSomeThenRouterPush">
       画面内に表示されたらプリフェッチ！
     </button>
@@ -23,7 +11,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
-import { usePrefetchRouter } from '~/modules/usePrefetchRouter'
+import { usePrefetchRouter } from 'nuxt-prefetch'
 
 export default defineComponent({
   setup() {

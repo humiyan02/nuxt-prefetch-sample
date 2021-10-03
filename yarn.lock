@@ -7625,6 +7625,14 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
+nuxt-prefetch@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/nuxt-prefetch/-/nuxt-prefetch-1.0.3.tgz#cb1cca4cb0baad827b307ae12910a71122104c20"
+  integrity sha512-xMJJcLVJexCmLQxmw1wKWnTFCoRqbv6nOOERvSXxr+RVyxzpXGE84M9R++yNij7AzkN5m8g/+npG6llP2juZ4Q==
+  dependencies:
+    core-js "^3.15.1"
+    nuxt "^2.15.7"
+
 nuxt@^2.15.7:
   version "2.15.8"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.15.8.tgz#946cba46bdaaf0e3918aa27fd9ea0fed8ed303b0"
